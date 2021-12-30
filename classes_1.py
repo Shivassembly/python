@@ -2,7 +2,7 @@
 Classes ,OOP and inheriatance
     1.Instance variables and methods
     2.Class variables and methods
-    3.Inheritance and Resolution Order 
+    3.Inheritance and Resolution Order
     https://www.youtube.com/watch?v=RSl87lqOXDE&list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc&index=4
     '''
 
@@ -144,3 +144,18 @@ mgr2.add_emp(mgr1)
 print(mgr2)
 
 print(isinstance(mgr2,Manager))   # to check the instance of the class
+
+########### Magic/Dunder Methods
+#Operator overloading
+#Emulate python default/built-in  behaviour
+#__repr__  its for debugging info for other deverloer and recreate an object information would be good
+#__str__ tthis is for more readable format of an object
+#__len__,__add__
+
+
+######## Property Decorator -Getter,setter and Deleters
+
+
+#@property decorator allows method as attribute
+# func.setter will set the attributes to the instancec
+#func.deleter can delete the instance attributes
