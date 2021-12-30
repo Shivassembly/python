@@ -2,7 +2,9 @@
 Classes ,OOP and inheriatance
     1.Instance variables and methods
     2.Class variables and methods
-    3.Inheritance and Resolution Order '''
+    3.Inheritance and Resolution Order 
+    https://www.youtube.com/watch?v=RSl87lqOXDE&list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc&index=4
+    '''
 
 class Employee:
     no_of_employees=0
