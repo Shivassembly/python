@@ -8,4 +8,6 @@ import builtins
 
 print(dir(builtins))
 
-print(builtins.__dict__())
+# print(builtins.__dict__())
+
+print(help(list))
